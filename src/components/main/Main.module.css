@@ -1,0 +1,25 @@
+.Main {
+    flex-grow: 1;
+    padding: 0 12px;
+    overflow: scroll;
+}
+
+.List {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.EmptyPlug {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: calc(100% / 5);
+    font-size: 32px;
+}
+
+.SuiteHeader {
+    font-size: 24px;
+    margin: 12px auto;
+    color: var(--accent-color);
+    text-align: center;
+}
