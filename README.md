@@ -4,7 +4,7 @@ there are `TODO:` and `NOTE:` comments in the code to explain my thought process
 
 # Test Runner
 
-install dependencies with `npm ci` and run the app with `npm run start-tests`
+install dependencies with `npm ci` and run the app with `npm start`
 
 ## Available Scripts
 
@@ -12,11 +12,12 @@ In the project directory, you can run:
 
 ### `npm start`
 
+Searches `./src` folder for files ending in `.test.js`, creates `__all-tests.js` file in that folder and starts app in development mode with `npm run start:prepared`.
+
+### `npm run start:prepared`
+
 Runs the app in the development mode. `__all-tests.js` file must exist in `./src` folder for it to work.
 
-### `npm run start-tests`
-
-Searches `./src` folder for files ending in `.test.js`, creates `__all-tests.js` file in that folder and starts app in development mode with `npm start`.
 
 ## Features
 - [x] run single test

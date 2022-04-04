@@ -19,8 +19,8 @@
         "web-vitals": "^2.1.4"
     },
     "scripts": {
-        "start": "react-scripts start",
-        "start-tests": "cross-env START_DIRECTORY='./src' RESULT_DIRECTORY='./src' node ./src/scripts/prepare-tests.js && npm run start"
+        "start:prepared": "react-scripts start",
+        "start": "cross-env START_DIRECTORY='./src' RESULT_DIRECTORY='./src' node ./src/scripts/prepare-tests.js && npm run start:prepared"
     },
     "eslintConfig": {
         "extends": [
